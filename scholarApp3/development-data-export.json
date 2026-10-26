@@ -1,0 +1,714 @@
+{
+  "source": "Scholar's Log development database",
+  "note": "Production records are not included while the production database is suspended. Push subscription authentication tokens are intentionally excluded.",
+  "tables": {
+    "badges": [
+      {
+        "id": 2,
+        "type": "streak_3",
+        "name": "On a Roll",
+        "description": "Study 3 days in a row",
+        "icon": "🔥",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.262572"
+      },
+      {
+        "id": 3,
+        "type": "streak_7",
+        "name": "Week Warrior",
+        "description": "Study 7 days in a row",
+        "icon": "⚡",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.266791"
+      },
+      {
+        "id": 4,
+        "type": "streak_30",
+        "name": "Iron Scholar",
+        "description": "Study 30 days in a row",
+        "icon": "🏆",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.270436"
+      },
+      {
+        "id": 5,
+        "type": "focus_5",
+        "name": "Focused",
+        "description": "Complete 5 focus sessions",
+        "icon": "🎯",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.273234"
+      },
+      {
+        "id": 6,
+        "type": "focus_10",
+        "name": "Focus Master",
+        "description": "Complete 10 focus sessions",
+        "icon": "🧠",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.276553"
+      },
+      {
+        "id": 7,
+        "type": "focus_25",
+        "name": "Deep Worker",
+        "description": "Complete 25 focus sessions",
+        "icon": "💎",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.279784"
+      },
+      {
+        "id": 8,
+        "type": "habit_week",
+        "name": "Habit Hero",
+        "description": "Complete all habits for 7 consecutive days",
+        "icon": "💪",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.283209"
+      },
+      {
+        "id": 10,
+        "type": "note_taker",
+        "name": "Note Taker",
+        "description": "Create 5 notes",
+        "icon": "📝",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.289178"
+      },
+      {
+        "id": 11,
+        "type": "flashcard_10",
+        "name": "Card Collector",
+        "description": "Create 10 flashcards",
+        "icon": "🃏",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.29225"
+      },
+      {
+        "id": 12,
+        "type": "flashcard_study",
+        "name": "Memory Ace",
+        "description": "Study a complete flashcard set",
+        "icon": "🎓",
+        "earned_at": null,
+        "seen": false,
+        "created_at": "2026-06-05T06:22:25.295214"
+      },
+      {
+        "id": 1,
+        "type": "first_task",
+        "name": "First Step",
+        "description": "Complete your first task",
+        "icon": "✅",
+        "earned_at": "2026-06-05T06:23:50.757",
+        "seen": true,
+        "created_at": "2026-06-05T06:22:25.248555"
+      },
+      {
+        "id": 9,
+        "type": "grade_a",
+        "name": "Top Grade",
+        "description": "Score 90% or above on an assignment",
+        "icon": "⭐",
+        "earned_at": "2026-06-05T06:23:50.757",
+        "seen": true,
+        "created_at": "2026-06-05T06:22:25.286734"
+      }
+    ],
+    "conversations": [
+      {
+        "id": 1,
+        "title": "New Chat",
+        "created_at": "2026-05-04T09:28:29.260337+00:00"
+      },
+      {
+        "id": 2,
+        "title": "New Chat",
+        "created_at": "2026-05-05T03:32:15.288134+00:00"
+      },
+      {
+        "id": 3,
+        "title": "New Chat",
+        "created_at": "2026-05-05T03:40:41.838639+00:00"
+      },
+      {
+        "id": 4,
+        "title": "New Chat",
+        "created_at": "2026-05-10T10:04:10.137146+00:00"
+      },
+      {
+        "id": 5,
+        "title": "New Chat",
+        "created_at": "2026-06-04T17:25:40.835629+00:00"
+      },
+      {
+        "id": 6,
+        "title": "New Chat",
+        "created_at": "2026-06-07T16:11:51.374316+00:00"
+      },
+      {
+        "id": 7,
+        "title": "New Chat",
+        "created_at": "2026-09-19T15:51:04.726393+00:00"
+      }
+    ],
+    "deadlines": [
+      {
+        "id": 2,
+        "title": "Physics Lab Report",
+        "subject": "Physics",
+        "due_date": "2026-05-18",
+        "due_time": null,
+        "priority": "high",
+        "completed": false,
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.415362"
+      },
+      {
+        "id": 3,
+        "title": "Literature Essay",
+        "subject": "Literature",
+        "due_date": "2026-05-11",
+        "due_time": null,
+        "priority": "medium",
+        "completed": false,
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.464147"
+      },
+      {
+        "id": 1,
+        "title": "Final Exam - Mathematics",
+        "subject": "Mathematics",
+        "due_date": "2026-05-11",
+        "due_time": "09:00",
+        "priority": "critical",
+        "completed": true,
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.364067"
+      }
+    ],
+    "flashcard_sets": [],
+    "flashcards": [],
+    "focus_sessions": [],
+    "grades": [
+      {
+        "id": 1,
+        "subject": "Mathematics",
+        "assignment_name": "Midterm Exam",
+        "score": 88,
+        "max_score": 100,
+        "type": "exam",
+        "date": "2026-04-20",
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.1269"
+      },
+      {
+        "id": 2,
+        "subject": "Mathematics",
+        "assignment_name": "Quiz 3",
+        "score": 18,
+        "max_score": 20,
+        "type": "quiz",
+        "date": "2026-04-15",
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.179439"
+      },
+      {
+        "id": 3,
+        "subject": "Physics",
+        "assignment_name": "Lab Report 2",
+        "score": 92,
+        "max_score": 100,
+        "type": "assignment",
+        "date": "2026-04-18",
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.225144"
+      },
+      {
+        "id": 4,
+        "subject": "Physics",
+        "assignment_name": "Chapter Test",
+        "score": 78,
+        "max_score": 100,
+        "type": "exam",
+        "date": "2026-04-25",
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.271203"
+      },
+      {
+        "id": 5,
+        "subject": "Literature",
+        "assignment_name": "Essay Analysis",
+        "score": 45,
+        "max_score": 50,
+        "type": "assignment",
+        "date": "2026-04-22",
+        "notes": null,
+        "created_at": "2026-05-04T08:33:12.318612"
+      }
+    ],
+    "habit_completions": [
+      {
+        "id": 3,
+        "habit_id": 4,
+        "completed_at": "2026-06-05T11:00:09.200655",
+        "completed_date": "2026-06-05"
+      },
+      {
+        "id": 4,
+        "habit_id": 5,
+        "completed_at": "2026-06-05T11:00:54.1389",
+        "completed_date": "2026-06-05"
+      },
+      {
+        "id": 6,
+        "habit_id": 4,
+        "completed_at": "2026-08-04T08:44:22.616842",
+        "completed_date": "2026-08-04"
+      },
+      {
+        "id": 7,
+        "habit_id": 5,
+        "completed_at": "2026-08-04T08:44:28.71446",
+        "completed_date": "2026-08-04"
+      }
+    ],
+    "habits": [
+      {
+        "id": 3,
+        "name": "Review Notes",
+        "description": "Review class notes",
+        "frequency": "daily",
+        "target_days": 7,
+        "current_streak": 0,
+        "longest_streak": 0,
+        "created_at": "2026-05-04T08:32:54.371431"
+      },
+      {
+        "id": 1,
+        "name": "Morning Quran",
+        "description": "Read Quran after Fajr",
+        "frequency": "daily",
+        "target_days": 7,
+        "current_streak": 0,
+        "longest_streak": 1,
+        "created_at": "2026-05-04T08:32:54.281998"
+      },
+      {
+        "id": 2,
+        "name": "Exercise",
+        "description": "30 minutes workout",
+        "frequency": "daily",
+        "target_days": 5,
+        "current_streak": 0,
+        "longest_streak": 1,
+        "created_at": "2026-05-04T08:32:54.330084"
+      },
+      {
+        "id": 4,
+        "name": "book learning",
+        "description": null,
+        "frequency": "daily",
+        "target_days": 7,
+        "current_streak": 2,
+        "longest_streak": 2,
+        "created_at": "2026-06-05T11:00:05.999184"
+      },
+      {
+        "id": 5,
+        "name": "Skill flow",
+        "description": null,
+        "frequency": "daily",
+        "target_days": 7,
+        "current_streak": 2,
+        "longest_streak": 2,
+        "created_at": "2026-06-05T11:00:51.016752"
+      }
+    ],
+    "messages": [
+      {
+        "id": 1,
+        "conversation_id": 1,
+        "role": "user",
+        "content": "How can I improve my study habits?",
+        "created_at": "2026-05-04T09:28:29.649119+00:00"
+      },
+      {
+        "id": 2,
+        "conversation_id": 1,
+        "role": "assistant",
+        "content": "Great question! Improving your study habits can make a big difference. Here are some practical steps tailored to your current situation:\n\n1. **Set Specific Goals:** Start each session with a clear goal, like “Finish Chapter 5 summary” or “Draft lab report intro.”\n\n2. **Prioritize Tasks:** Focus first on high-priority tasks (like Chapter 5 - Calculus today) and important upcoming deadlines (Mathematics final and Literature essay).\n\n3. **Use Active Learning:** Don’t just read—summarize, solve problems, or quiz yourself, especially for subjects like Calculus.\n\n4. **Break Tasks into Steps:** For assignments, outline each part (e.g., for your lab report: Introduction, Method, Result, Conclusion).\n\n5. **Create a Consistent Schedule:** Dedicate regular study blocks (e.g., 45-60 minutes) and take short breaks to stay fresh.\n\n6. **Review Regularly:** Quickly review past notes to reinforce retention, which will help with your final exams.\n\n7. **Build Habits:** Try to keep a streak—even a small habit like studying 15 minutes daily counts.\n\n8. **Stay Organized:** Use checklists or apps (like this one!) to track what you need to do and when.\n\nWould you like a suggested study schedule for this week or tips on starting a specific habit?",
+        "created_at": "2026-05-04T09:28:35.516553+00:00"
+      },
+      {
+        "id": 3,
+        "conversation_id": 2,
+        "role": "user",
+        "content": "hello, please help",
+        "created_at": "2026-05-05T03:32:15.416905+00:00"
+      },
+      {
+        "id": 4,
+        "conversation_id": 2,
+        "role": "assistant",
+        "content": "Hello! I’m here to help. You’ve got a few important deadlines coming up, and a practice problems set to work on today.  \nTo get started, would you like help with:\n\n- Planning your study session for today?\n- Breaking down one of your upcoming assignments?\n- Suggestions for study techniques?\n\nLet me know what you need most right now!",
+        "created_at": "2026-05-05T03:32:18.773175+00:00"
+      },
+      {
+        "id": 5,
+        "conversation_id": 3,
+        "role": "user",
+        "content": "What is python",
+        "created_at": "2026-05-05T03:40:41.93942+00:00"
+      },
+      {
+        "id": 6,
+        "conversation_id": 3,
+        "role": "assistant",
+        "content": "Python is a popular, high-level programming language known for its simplicity and readability. It’s widely used for tasks like web development, data analysis, artificial intelligence, automation, and more. Python’s easy-to-understand syntax makes it a great choice for beginners and professionals alike.\n\nIf you're starting to learn Python, you'll typically begin by understanding its basic concepts such as variables, data types, loops, functions, and libraries. Would you like some resources or tips for getting started with Python programming?",
+        "created_at": "2026-05-05T03:40:44.66682+00:00"
+      },
+      {
+        "id": 7,
+        "conversation_id": 3,
+        "role": "user",
+        "content": "How livery work in me",
+        "created_at": "2026-05-05T03:42:01.127063+00:00"
+      },
+      {
+        "id": 8,
+        "conversation_id": 3,
+        "role": "assistant",
+        "content": "It sounds like you're asking about the **liver** and how it works in your body. Here’s a simple explanation:\n\nThe **liver** is a vital organ located in the upper right part of your abdomen. It has many important functions, including:\n- **Filtering blood:** The liver removes toxins and harmful substances.\n- **Metabolizing nutrients:** It processes nutrients from the food you eat.\n- **Producing bile:** Bile helps break down fats during digestion.\n- **Storing energy:** The liver stores sugars and vitamins for your body to use later.\n\nIn summary, your liver acts like your body’s chemical processing plant, keeping your blood clean and helping with digestion and energy management.\n\nIf you meant something different, such as “livery” (which refers to a uniform or vehicle design), or have a specific question about the liver, let me know!",
+        "created_at": "2026-05-05T03:42:04.69886+00:00"
+      },
+      {
+        "id": 9,
+        "conversation_id": 3,
+        "role": "user",
+        "content": "Please libraries python cod me then example",
+        "created_at": "2026-05-05T03:43:02.162934+00:00"
+      },
+      {
+        "id": 10,
+        "conversation_id": 3,
+        "role": "assistant",
+        "content": "Sure! **Python libraries** are collections of pre-written code that help you accomplish specific tasks more easily. They save you time and make your code simpler.\n\n### Example: Using a Python Library\n\nLet’s say you want to do some basic math with arrays (lists of numbers). The **NumPy** library is perfect for this.\n\n**Step 1: Install the library (if you haven't yet)**\n```python\n# Run this in your command line (not in the Python script)\npip install numpy\n```\n\n**Step 2: Use NumPy in your Python code**\n```python\nimport numpy as np          # Import the NumPy library\n\narr = np.array([1, 2, 3])  # Create an array\nprint(arr * 2)             # Multiply every element by 2\n```\n\n**Output:**\n```\n[2 4 6]\n```\n\n#### More Popular Libraries in Python:\n- **matplotlib**: for plotting graphs\n- **pandas**: for data handling and analysis\n- **requests**: for making web requests\n\nIf you tell me what kind of project or task you’re interested in, I can show you a library and example code for that!",
+        "created_at": "2026-05-05T03:43:05.755649+00:00"
+      },
+      {
+        "id": 11,
+        "conversation_id": 3,
+        "role": "user",
+        "content": "You can bangla translation plz",
+        "created_at": "2026-05-05T03:46:39.116208+00:00"
+      },
+      {
+        "id": 12,
+        "conversation_id": 3,
+        "role": "assistant",
+        "content": "Of course! Here is the translation of my previous answer about Python libraries into Bangla:\n\n---\n\n**Python লাইব্রেরি** হলো কিছু প্রস্তুত কোডের সংগ্রহ যা নির্দিষ্ট কাজ সহজে করতে সাহায্য করে। এগুলো সময় বাঁচায় এবং কোড লেখা সহজ করে তোলে।\n\n### উদাহরণ: একটা Python লাইব্রেরি ব্যবহার করা\n\nধরুন আপনি অ্যারে (সংখ্যাগুলোর তালিকা) নিয়ে কিছু গণনা করতে চান। এর জন্য **NumPy** লাইব্রেরি অনেক উপযোগী।\n\n**ধাপ ১: লাইব্রেরি ইনস্টল করুন (যদি না করে থাকেন)**\n```python\n# কমান্ড লাইনে লিখুন (Python স্ক্রিপ্টে না)\npip install numpy\n```\n\n**ধাপ ২: কোডে NumPy ব্যবহার করুন**\n```python\nimport numpy as np           # NumPy লাইব্রেরি ইমপোর্ট করুন\n\narr = np.array([1, 2, 3])   # একটা অ্যারে তৈরি করুন\nprint(arr * 2)              # প্রতিটা উপাদানকে ২ দিয়ে গুণ করুন\n```\n\n**আউটপুট:**\n```\n[2 4 6]\n```\n\n#### আরও জনপ্রিয় Python লাইব্রেরি:\n- **matplotlib**: গ্রাফ আঁকার জন্য\n- **pandas**: তথ্য (data) বিশ্লেষণের জন্য\n- **requests**: ওয়েব অনুরোধ (web requests) পাঠাতে\n\nআপনি যদি নির্দিষ্ট কোনও কাজ বা প্রোজেক্টের কথা বলেন, আমি আপনাকে সেই অনুযায়ী লাইব্রেরি ও উদাহরণ কোড দিতে পারি!\n\n---\n\nFeel free to ask in Bangla if you prefer!",
+        "created_at": "2026-05-05T03:46:45.945157+00:00"
+      },
+      {
+        "id": 13,
+        "conversation_id": 3,
+        "role": "user",
+        "content": "Thank you 😊 very good",
+        "created_at": "2026-05-05T03:47:20.132078+00:00"
+      },
+      {
+        "id": 14,
+        "conversation_id": 3,
+        "role": "assistant",
+        "content": "You’re very welcome! 😊 I’m glad you found it helpful. If you have any more questions or need help with your studies, just ask. Keep up the great work! 🚀",
+        "created_at": "2026-05-05T03:47:21.702971+00:00"
+      },
+      {
+        "id": 44,
+        "conversation_id": 4,
+        "role": "user",
+        "content": "Hey how are you",
+        "created_at": "2026-05-10T10:04:10.241002+00:00"
+      },
+      {
+        "id": 45,
+        "conversation_id": 4,
+        "role": "assistant",
+        "content": "Hi! I’m ready to help you plan and stay on top of your studies. How are you doing today? Anything specific you'd like to focus on?",
+        "created_at": "2026-05-10T10:04:13.230878+00:00"
+      },
+      {
+        "id": 46,
+        "conversation_id": 5,
+        "role": "user",
+        "content": "Hello",
+        "created_at": "2026-06-04T17:25:41.286136+00:00"
+      },
+      {
+        "id": 47,
+        "conversation_id": 5,
+        "role": "assistant",
+        "content": "Hello! How can I help you today with your studies or planning? If you’d like to start a new goal, build habits, or discuss strategies, just let me know!",
+        "created_at": "2026-06-04T17:25:45.173675+00:00"
+      },
+      {
+        "id": 48,
+        "conversation_id": 6,
+        "role": "user",
+        "content": "Hello",
+        "created_at": "2026-06-07T16:11:51.521635+00:00"
+      },
+      {
+        "id": 49,
+        "conversation_id": 6,
+        "role": "assistant",
+        "content": "Hello! 👋 How are you today? Is there anything you’d like help with—planning your studies, building your habits, or maybe just some motivation to keep your streaks going? Let me know how I can support you!",
+        "created_at": "2026-06-07T16:11:54.846589+00:00"
+      },
+      {
+        "id": 50,
+        "conversation_id": 6,
+        "role": "user",
+        "content": "I am fine. Nice to meet you. What is python",
+        "created_at": "2026-06-07T16:12:24.844183+00:00"
+      },
+      {
+        "id": 51,
+        "conversation_id": 6,
+        "role": "assistant",
+        "content": "Nice to meet you too! 😊\n\n**Python** is a popular, high-level programming language that’s known for being easy to read and write. It’s used by beginners and professionals alike because it’s simple but powerful. With Python, you can:\n\n- Build websites and web apps\n- Analyze data and visualize results\n- Automate tasks\n- Develop games\n- Work in artificial intelligence and machine learning\n\nIts clear syntax (the way you write the code) makes it a great starting point if you’re new to programming. If you’re interested in learning, I can suggest some easy ways to get started!",
+        "created_at": "2026-06-07T16:12:27.634885+00:00"
+      },
+      {
+        "id": 52,
+        "conversation_id": 6,
+        "role": "user",
+        "content": "Can you bangla text",
+        "created_at": "2026-06-07T16:12:55.399163+00:00"
+      },
+      {
+        "id": 53,
+        "conversation_id": 6,
+        "role": "assistant",
+        "content": "Yes, I can help with Bangla (Bengali) text! আপনি বাংলায় প্রশ্ন করতে পারেন, অথবা আমি বাংলায় উত্তর দিতে পারি। কী জানতে চান?",
+        "created_at": "2026-06-07T16:12:56.644755+00:00"
+      },
+      {
+        "id": 54,
+        "conversation_id": 6,
+        "role": "user",
+        "content": "Banglai answer deu",
+        "created_at": "2026-06-07T16:13:23.871894+00:00"
+      },
+      {
+        "id": 55,
+        "conversation_id": 6,
+        "role": "assistant",
+        "content": "অবশ্যই! \n\n**Python** একটি জনপ্রিয় এবং উচ্চ-স্তরের প্রোগ্রামিং ভাষা। এটি ব্যবহার করা সহজ এবং পড়া সহজ। Python দিয়ে আপনি—\n\n- ওয়েবসাইট কিংবা ওয়েব অ্যাপ তৈরি করতে পারেন\n- ডেটা বিশ্লেষণ ও ভিজ্যুয়ালাইজ করতে পারেন\n- নানা কাজ অটোমেট করতে পারেন (যেমন ফাইল ম্যানেজমেন্ট)\n- গেম ডেভেলপ করতে পারেন\n- কৃত্রিম বুদ্ধিমত্তা (AI) ও মেশিন লার্নিংয়ে কাজ করতে পারেন\n\nPython-এর সিনট্যাক্স (লিখার নিয়ম) খুব সহজ, তাই নতুনদের জন্য চমৎকার। যদি Python শেখার ইচ্ছা থাকে, আমি আপনার জন্য সহজ কিছু রিসোর্স সাজেস্ট করতে পারি। বলতে পারেন, আগ্রহ কীভাবে শুরু করতে চান?",
+        "created_at": "2026-06-07T16:13:26.354778+00:00"
+      },
+      {
+        "id": 56,
+        "conversation_id": 6,
+        "role": "user",
+        "content": "Okay,  bery bery thanks. Ten i am again. By",
+        "created_at": "2026-06-07T16:14:03.09261+00:00"
+      },
+      {
+        "id": 57,
+        "conversation_id": 6,
+        "role": "assistant",
+        "content": "You're very welcome! 😊 যখনই দরকার হবে, আবার আসবেন। শুভকামনা ও ভালো থাকুন! Bye! 👋",
+        "created_at": "2026-06-07T16:14:04.482795+00:00"
+      },
+      {
+        "id": 58,
+        "conversation_id": 7,
+        "role": "user",
+        "content": "hello",
+        "created_at": "2026-09-19T15:51:05.002809+00:00"
+      },
+      {
+        "id": 59,
+        "conversation_id": 7,
+        "role": "assistant",
+        "content": "Hello! It looks like you're keeping up great with your book learning and Skill flow habits—2-day streaks on both! Is there anything specific you'd like help with today? If you want study tips, new goals, or just some motivation, let me know!",
+        "created_at": "2026-09-19T15:51:07.604076+00:00"
+      },
+      {
+        "id": 60,
+        "conversation_id": 7,
+        "role": "user",
+        "content": "can you help me",
+        "created_at": "2026-09-19T15:51:26.015664+00:00"
+      },
+      {
+        "id": 61,
+        "conversation_id": 7,
+        "role": "assistant",
+        "content": "Absolutely, I’m here to help! What would you like support with today? You can ask about study strategies, breaking down topics, creating new habits, or anything else related to your learning goals. Just let me know what you need!",
+        "created_at": "2026-09-19T15:51:27.192959+00:00"
+      },
+      {
+        "id": 62,
+        "conversation_id": 7,
+        "role": "user",
+        "content": "what is java ? and how ran in code. how learn in java . can you step by step learn in java",
+        "created_at": "2026-09-19T15:53:11.066341+00:00"
+      },
+      {
+        "id": 63,
+        "conversation_id": 7,
+        "role": "assistant",
+        "content": "Of course! Let’s break this down step by step:\n\n## 1. **What is Java?**\nJava is a **high-level, object-oriented programming language** used to build all kinds of software—websites, apps, games, and more. It’s known for being portable (write once, run anywhere) and is widely used in both industry and education.\n\n---\n\n## 2. **How does Java code run?**\n1. **Write code:** You create a file with your code, usually with a `.java` extension.\n2. **Compile:** Use the **Java compiler** (`javac`) to convert your code into **bytecode** (a `.class` file).\n3. **Run:** Use the **Java Virtual Machine** (`java`) to execute the bytecode on your computer.\n\n**In short:**  \n> Write code → Compile → Run\n\n---\n\n## 3. **How to learn Java (step by step):**\n\n### Step 1: **Set Up Your Tools**\n- **Install Java Development Kit (JDK):** Download from [Oracle](https://www.oracle.com/java/technologies/downloads/) or use [OpenJDK](https://openjdk.org/).\n- **Choose an IDE:** Beginners often use IntelliJ IDEA, Eclipse, or the easier BlueJ/NetBeans. You can also use a simple code editor like VSCode.\n\n### Step 2: **Learn Java Basics**\n- **Data types** (int, double, String, etc.)\n- **Variables** and **Operators**\n- **Input/Output** (how to read from keyboard, print to screen)\n- **Control structures** (if, else, loops)\n- **Methods (functions)**\n\n### Step 3: **Try Your First Java Program**\n```java\n// Save as HelloWorld.java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}\n```\n- **Compile:** `javac HelloWorld.java`\n- **Run:** `java HelloWorld`\n\n### Step 4: **Practice Programming Tasks**\n- Make simple calculators, guess-the-number games, etc.\n- Explore arrays, lists, and object-oriented programming (classes, objects).\n\n### Step 5: **Study Object-Oriented Concepts**\n- **Classes** and **objects**\n- **Inheritance**, **polymorphism**, **encapsulation**\n\n### Step 6: **Explore More Advanced Topics**\n- File handling, exceptions, graphical interfaces (later!)\n\n---\n\n## 4. **How to Stay Consistent**\n- Practice a bit each day.\n- Build small projects.\n- Use online tutorials (like [w3schools Java](https://www.w3schools.com/java/), [Codecademy Java](https://www.codecademy.com/learn/learn-java), or [JavaTpoint](https://www.javatpoint.com/java-tutorial)).\n\n---\n\n**Motivation:**  \nLearning programming takes time, but daily practice (even 30 minutes) can make a huge difference. Celebrate small wins!\n\n---\n\nWould you like a beginner’s study plan or specific exercises to start your Java journey?",
+        "created_at": "2026-09-19T15:53:16.648504+00:00"
+      }
+    ],
+    "notes": [],
+    "settings": [
+      {
+        "id": 1,
+        "user_name": "Md Roman Hussain",
+        "city": "Dhaka",
+        "prayer_calculation_method": 5,
+        "show_prayer_times": true,
+        "week_starts_on": "monday",
+        "theme": "light",
+        "country": "Bangladesh",
+        "custom_fajr": "4.50",
+        "custom_dhuhr": "1.00",
+        "custom_asr": "5.00",
+        "custom_maghrib": "6.45",
+        "custom_isha": "8.15"
+      }
+    ],
+    "tasks": [
+      {
+        "id": 7,
+        "title": "Reding Books",
+        "description": null,
+        "subject": "Chemistry",
+        "priority": "medium",
+        "status": "in_progress",
+        "due_date": "2026-08-04",
+        "scheduled_time": "17:26",
+        "estimated_minutes": 60,
+        "created_at": "2026-08-04T08:38:09.917295"
+      },
+      {
+        "id": 8,
+        "title": "Writing book",
+        "description": null,
+        "subject": "Mathemetic 2",
+        "priority": "medium",
+        "status": "in_progress",
+        "due_date": null,
+        "scheduled_time": null,
+        "estimated_minutes": 60,
+        "created_at": "2026-08-04T08:39:51.840953"
+      },
+      {
+        "id": 9,
+        "title": "Writing Book",
+        "description": null,
+        "subject": "Mathemetic 3",
+        "priority": "medium",
+        "status": "pending",
+        "due_date": null,
+        "scheduled_time": null,
+        "estimated_minutes": 60,
+        "created_at": "2026-08-04T08:40:23.33254"
+      },
+      {
+        "id": 10,
+        "title": "Reading book",
+        "description": null,
+        "subject": "IT Support and IOT Basic",
+        "priority": "high",
+        "status": "pending",
+        "due_date": null,
+        "scheduled_time": null,
+        "estimated_minutes": 50,
+        "created_at": "2026-08-04T08:41:13.060976"
+      },
+      {
+        "id": 11,
+        "title": "Reading Book",
+        "description": null,
+        "subject": "Social Science",
+        "priority": "medium",
+        "status": "pending",
+        "due_date": null,
+        "scheduled_time": null,
+        "estimated_minutes": null,
+        "created_at": "2026-08-04T08:41:42.017146"
+      },
+      {
+        "id": 6,
+        "title": "Skill in the language",
+        "description": null,
+        "subject": "Python",
+        "priority": "medium",
+        "status": "pending",
+        "due_date": "2026-05-26",
+        "scheduled_time": "21:00",
+        "estimated_minutes": 50,
+        "created_at": "2026-06-05T10:55:52.808162"
+      },
+      {
+        "id": 12,
+        "title": "Reading and Writing Book",
+        "description": null,
+        "subject": "Physics",
+        "priority": "medium",
+        "status": "pending",
+        "due_date": null,
+        "scheduled_time": null,
+        "estimated_minutes": null,
+        "created_at": "2026-08-04T08:43:25.362863"
+      }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "type": "expense",
+        "amount": 40,
+        "category": "Food",
+        "description": "biscut",
+        "note": null,
+        "date": "2026-08-04",
+        "created_at": "2026-08-04T08:26:26.760454"
+      },
+      {
+        "id": 3,
+        "type": "income",
+        "amount": 2500,
+        "category": "Investment",
+        "description": "Family Give me Many.",
+        "note": null,
+        "date": "2026-08-04",
+        "created_at": "2026-08-04T08:32:51.31325"
+      },
+      {
+        "id": 4,
+        "type": "expense",
+        "amount": 135,
+        "category": "Transport",
+        "description": "Cylinder gas bil",
+        "note": null,
+        "date": "2026-08-04",
+        "created_at": "2026-08-04T08:35:06.663584"
+      }
+    ]
+  }
+}

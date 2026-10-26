@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Scholar's Log"
+version = "1.0.0"
+id = "artifacts/scholars-log"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25350
+
+[services.development]
+run = "pnpm --filter @workspace/scholars-log run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/scholars-log", "run", "build" ]
+publicDir = "artifacts/scholars-log/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25350"
+BASE_PATH = "/"
